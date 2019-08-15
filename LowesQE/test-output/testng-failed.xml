@@ -3,13 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="lowes.NewTest">
+      <class name="Grab.paxapp">
         <methods>
-          <include name="testweb3"/>
-          <include name="afterTest"/>
-          <include name="beforeTest"/>
+          <include name="addcontact"/>
+          <include name="setupAppium"/>
         </methods>
-      </class> <!-- lowes.NewTest -->
+      </class> <!-- Grab.paxapp -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
